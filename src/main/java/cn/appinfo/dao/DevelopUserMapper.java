@@ -16,6 +16,12 @@ public interface DevelopUserMapper {
 
     int updateByPrimaryKey(DevelopUser record);
 
+    /**
+     * 根据用户code和密码获得开发人员数据
+     * @param devCode
+     * @param devPassword
+     * @return
+     */
     public DevelopUser selectByCodePwd(@Param("devCode") String devCode,@Param("devPassword") String devPassword);
 
 }

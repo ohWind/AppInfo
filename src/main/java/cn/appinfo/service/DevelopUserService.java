@@ -4,6 +4,6 @@ import cn.appinfo.pojo.DevelopUser;
 
 public interface DevelopUserService {
 
-    public DevelopUser selectByCodePwd(String devCode,String devPwd);
+    public DevelopUser selectByCodePwd(String devCode,String devPassword);
 
 }
